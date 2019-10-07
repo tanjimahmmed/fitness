@@ -31,12 +31,36 @@
         navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
     });
 
+    $(".deal_slides").owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        dots: false,
+        autoplay: false,
+        navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
+    });
+
+    $(".listing_carousel2").owlCarousel({
+        items: 4,
+        loop: true,
+        margin:30,
+        nav: false,
+        dots: false,
+        autoplay: false,
+        navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
+    });
+
+    // comedown 
+    
      // -- End work -- //
             
     });
 
    jQuery(window).load(function(){
 
+
+
+    
    });
 
 }(jQuery));	
