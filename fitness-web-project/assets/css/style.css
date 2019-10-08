@@ -208,7 +208,7 @@ i#side_area {
   background: none;
 }
 .mega_menu_wrapper li a:hover {
-  background: #f0f0f0;
+  color: #8ac615;
 }
 .header_area li.mega_menu:hover .mega_menu_wrapper {
   visibility: visible;

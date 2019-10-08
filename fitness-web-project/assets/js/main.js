@@ -63,6 +63,7 @@
         nav: true,
         dots: false,
         autoplay: true,
+        autoplayHoverPause:true,
         navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
         responsiveClass:true,
     responsive:{
@@ -102,7 +103,7 @@
         items: 6,
         loop: true,
         margin:30,
-        autoplay: false,
+        autoplay: true,
         nav: true,
         dots: false,
         navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
