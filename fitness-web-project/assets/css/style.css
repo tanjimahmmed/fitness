@@ -1682,6 +1682,7 @@ background-image: url(../img/shoe.png);
     font-size: 18px;
     font-weight: 400;
     color: #000;
+    cursor: pointer;
 }
 .special_box_title p {
     color: #8ac615;
@@ -1770,3 +1771,333 @@ background-image: url(../img/shoe.png);
     padding-right: 50px;
   }
 /* special product end */
+/* support area */
+.section_support_area{
+  padding: 40px 0;
+}
+.support_boxed_item{
+  position: relative;
+}
+.support_bg{
+  background-image: url(../img/freeshipping.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  width: 100%;
+  background-color: #8bc716;
+}
+.support_title {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  z-index: 1;
+}
+.support_title h3 {
+  background-color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  padding: 12px 15px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.support_title h3::before {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  content: 'shipping';
+  border: 8px solid #ffff;
+  display: inline-block;
+  text-align: center;
+  border-left: none;
+  line-height: 55px;
+  width: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.support_boxed_item {
+  position: relative;
+}
+.support_boxed_item::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  content: '';
+  opacity: 0.9;
+}
+.support_title h3.tittle_2::before {
+  content: 'Moneyback';
+}
+.support_title h3.tittle_3::before {
+  content: 'Support';
+}
+/* support area end */
+/* our letest blog */
+.section_letest_blog {
+  padding: 70px 0;
+  padding-bottom: 300px;
+}
+h2.letest_blog::after {
+  position: absolute;
+  content: "Our Letest blog";
+  text-transform: uppercase;
+}
+.blog_img_1{
+  background-image: url(../img/man1.jpg);
+}
+.blog_img_2{
+  background-image: url(../img/man2.jpg);
+}
+.blog_img_1, .blog_img_2{
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  background-color: #8ac615;
+}
+.section_blog_title {
+  background: #fafafa;
+  height: auto;
+  width: 500px;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  padding: 35px;
+  padding-right: 0;
+  padding-left: 28px;
+  box-shadow: 0 0 10px #b5b5b58f;
+  margin-bottom: calc(25%);
+}
+.our_letest_blog {
+  position: relative;
+}
+.section_blog_title h5 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.section_letest_blog .col-md-6 {
+  padding-left: 0;
+}
+.section_letest_blog .col-md-6.pad_blog {
+  padding-left: 15px;
+  padding-right: 0;
+}
+.pad_blog .section_blog_title {
+  left: 7.5%;
+}
+.iconic_user p span i {
+  color: #bebebe;
+  font-weight: normal;
+}
+.iconic_user p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+}
+.iconic_user span {
+  margin-right: 15px;
+}
+.section_blog_title .blog_web {
+  color: #b1b1b1;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.section_blog_title a {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #8ac615;
+  text-decoration: none;
+  padding: 12px 35px;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+}
+.section_blog_title a:hover {
+  color: #f1f1f1;
+}
+/* our letest blog end */
+/* news letter area */
+.newsletter_area{
+  background-color: #fafafa;
+  padding: 40px 0;
+}
+.newsletter_form {
+  max-width: 65%;
+  margin: 0 auto;
+  border:1px solid #e8e8e8;
+  position: relative;
+}
+.newsletter_form input[type="email"] {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  height: 55px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+.newsletter_form button {
+  position: absolute;
+  top: 13%;
+  right: 15px;
+  border: none;
+  background-color: #8ac615;
+  cursor: pointer;
+  padding: 8px 45px;
+  border-radius: 50px;
+}
+.newsletter_form button a {
+  text-decoration: none;
+  color: #fff;
+}
+/* news letter area end */
+/* 1st footer */
+.footer_title_5 img {
+  height: 55px;
+  width: 65px;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}
+.footer_area {
+  background-color: #222222;
+  color: #717171;
+  padding: 80px 0;
+}
+.logo_footer h3 {
+  background-color: #8ac615;
+  display: inline-block;
+  color: #222222;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.logo_footer h3::after {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: 'bazzar';
+  color: #fff;
+  border: 5px solid #8ac615;
+  border-left: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+}
+.footer_title_1 p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.contact_info {
+  position: relative;
+  padding-left: 33px;
+}
+.contact_info i.fa {
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  top: 3px;
+}
+.banking_area {
+  color: #fff;
+}
+.banking_area i {
+  margin-right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.footer_title_2 h5 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+.footer_title_2,.footer_title_3,.footer_title_4 p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer_title_3 h5 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+.footer_title_4 h5 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+.footer_title_5 h5 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+/* 1st footer end */
+/* snd footer */
+.footer_area_2 {
+  padding: 20px 0;
+  background-color: #8ac615;
+  color: #fff;
+}
+.footer_area_2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer_area_2 li {
+  display: inline-block;
+}
+.footer_area_2 li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+#pad i {
+  padding-left: 50px;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 18px;
+}
+#pad i:hover {
+  opacity: 1;
+}
+/* snd footer end */
+.scrollToTop {
+  font-size: 24px;
+  color: royalblue;
+  background: #ddd;
+  height: 60px;
+  width: 60px;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  border-radius: 50px;
+  display: none;
+}
+
