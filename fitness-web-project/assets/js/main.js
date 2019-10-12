@@ -10,6 +10,21 @@
             autoplay: true,
             dots: false,
             nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 1,
+                    nav: false
+                },
+                1000: {
+                    items: 1,
+                    nav: false,
+                    loop: true
+                }
+            }
         });
 
         $(".listing_carousel").owlCarousel({
@@ -19,23 +34,8 @@
             nav: true,
             dots: false,
             autoplay: true,
-            navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 4,
-                    nav: false
-                },
-                1000: {
-                    items: 4,
-                    nav: true,
-                    loop: true
-                }
-            }
+            navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
+        
         });
 
         $(".new_arrivals_sides").owlCarousel({
@@ -65,22 +65,6 @@
             autoplay: true,
             autoplayHoverPause: true,
             navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 4,
-                    nav: false
-                },
-                1000: {
-                    items: 4,
-                    nav: true,
-                    loop: true
-                }
-            }
         });
 
         $(".large_image").magnificPopup({
@@ -106,7 +90,7 @@
             autoplay: true,
             nav: true,
             dots: false,
-            navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
+            navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
         });
         //check to see if the window is top if not then display button
         $(window).scroll(function () {
@@ -123,6 +107,8 @@
             }, 800);
             return false;
         });
+
+        new WOW().init();
         // comedown 
 
         // -- End work -- //

@@ -2099,5 +2099,6 @@ h2.letest_blog::after {
   bottom: 14px;
   border-radius: 50px;
   display: none;
+  z-index:9999;
 }
 
