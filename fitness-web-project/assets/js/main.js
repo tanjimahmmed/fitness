@@ -41,7 +41,7 @@
         $(".new_arrivals_sides").owlCarousel({
             items: 1,
             loop: true,
-            autoplay: true,
+            autoplay: false,
             dots: false,
             nav: true,
             navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
